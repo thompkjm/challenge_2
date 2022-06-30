@@ -1,14 +1,3 @@
-  318  ls
-  319  ls
-  320  cd ..
-  321  git clone git@github.com:thompkjm/module_2_challenge.git
-  322  git clone git@github.com:thompkjm/module_2_challenge.git
-  323  git clone git@github.com:thompkjm/challenge_2.git
-  324  cd challenge_2
-  325  git status
-  326  git status
-  327  git add .
-  328  git status
   329  git commit -m "added challenge files"
   330  git push
   331  cd ..
@@ -48,3 +37,14 @@
   365  git status
   366  git commit -m "almost done"
   367  history 50 > terminal_history.txt
+  368  python app.py
+  369  git status
+  370  git add .
+  371  git commit -m "end of night"
+  372  git push
+  373  python app.py
+  374  git status
+  375  git add .
+  376  git commit -m "end of night part 2"
+  377  git push
+  378  history 50 > terminal_history.txt
