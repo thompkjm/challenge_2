@@ -1,0 +1,50 @@
+  318  ls
+  319  ls
+  320  cd ..
+  321  git clone git@github.com:thompkjm/module_2_challenge.git
+  322  git clone git@github.com:thompkjm/module_2_challenge.git
+  323  git clone git@github.com:thompkjm/challenge_2.git
+  324  cd challenge_2
+  325  git status
+  326  git status
+  327  git add .
+  328  git status
+  329  git commit -m "added challenge files"
+  330  git push
+  331  cd ..
+  332  cd module_2_challenge
+  333  python app.py
+  334  conda activate atmdev
+  335  python app.py
+  336  python app.py
+  337  /Users/joshthompkins/opt/anaconda3/bin/jupyter_mac.command ; exit;
+  338  conda activate dev
+  339  pwd
+  340  cd Desktop
+  341  cd Fintech-Workspace
+  342  cd Module_2
+  343  ls
+  344  cd module_2_challenge
+  345  python app.py
+  346  conda activate atmdev
+  347  python app.py
+  348  git status
+  349  git add .
+  350  git status
+  351  git commit -m "update before 6/29"
+  352  git status
+  353  git log
+  354  python app.py
+  355  python app.py
+  356  1
+  357  python app.py
+  358  python app.py
+  359  python app.py
+  360  python app.py
+  361  ls
+  362  python app.py
+  363  git status
+  364  git add .
+  365  git status
+  366  git commit -m "almost done"
+  367  history 50 > terminal_history.txt
