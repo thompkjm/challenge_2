@@ -29,11 +29,11 @@ def load_csv(csvpath):
             data.append(row)
     return data
 
-def save_csv(loans):
+def save_csv(path, loans):
     """
     This function saves the qualifying data as a file.
     """
-    with open('qualifying_loans', 'w', newline='') as w:
+    with open(path, 'w', newline='') as w:
         writer = csv.writer(w)
         writer.writerows(loans)
 

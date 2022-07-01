@@ -1,24 +1,3 @@
-  329  git commit -m "added challenge files"
-  330  git push
-  331  cd ..
-  332  cd module_2_challenge
-  333  python app.py
-  334  conda activate atmdev
-  335  python app.py
-  336  python app.py
-  337  /Users/joshthompkins/opt/anaconda3/bin/jupyter_mac.command ; exit;
-  338  conda activate dev
-  339  pwd
-  340  cd Desktop
-  341  cd Fintech-Workspace
-  342  cd Module_2
-  343  ls
-  344  cd module_2_challenge
-  345  python app.py
-  346  conda activate atmdev
-  347  python app.py
-  348  git status
-  349  git add .
   350  git status
   351  git commit -m "update before 6/29"
   352  git status
@@ -48,3 +27,24 @@
   376  git commit -m "end of night part 2"
   377  git push
   378  history 50 > terminal_history.txt
+  379  git status
+  380  git add .
+  381  python app.py
+  382  d
+  383  d
+  384  d
+  385  git status
+  386  git commit -m"end of night part 3"
+  387  git push
+  388  python app.py
+  389  python app.py
+  390  python app.py
+  391  python app.py
+  392  python app.py
+  393  python app.py
+  394  python app.py
+  395  python app.py
+  396  python app.py
+  397  python app.py
+  398  python app.py
+  399  history 50 > terminal_history.txt

@@ -120,9 +120,10 @@ def save_qualifying_loans(qualifying_loans):
     to_save = questionary.confirm("Do you want to save qualifying loans as a CSV?").ask()
     if to_save:
         save_path = questionary.text('What file path would you like?').ask()
-        save_csv(qualifying_loans)
+#        save_csv(qualifying_loans)
     else:
         print("You selected to not save, thank you for using the Qualified Loan Finder App.")
+    return save_path
     
 
 
@@ -141,8 +142,8 @@ def run():
     )
 
     # Save qualifying loans
-    save_qualifying_loans(qualifying_loans)
-    save_csv(qualifying_loans)
+    path = save_qualifying_loans(qualifying_loans)
+    save_csv(path, qualifying_loans)
 
 
 if __name__ == "__main__":
